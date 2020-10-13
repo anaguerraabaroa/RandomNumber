@@ -26,5 +26,4 @@ function getFinalNumber() {
 }
 
 
-
 button.addEventListener("click", getFinalNumber);
