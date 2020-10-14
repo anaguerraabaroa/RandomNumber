@@ -44,20 +44,21 @@ function getFinalNumber() {
   } else {
     clue.innerHTML = "Pista: el número debe estar entre 1 y 100";
   }
-  // OJO! Invocamos el resultado de la función getTotalAttempts aquí debido a que el evento activará esta función
+  // !!! Invocamos el resultado de la función getTotalAttempts aquí debido a que el evento activará esta función
   // Pintamos dentro del párrafo el valor de la función getTotalAttempts
   attempts.innerHTML = getTotalAttempts();
 }
 
 // Declaramos una variable para indicar que el contador debe empezar la cuenta a 0
+// No podemos declarar la variable dentro de la función porque cada vez que fuera invocada pondría el contador a 0 en vez de ir sumando los clicks
 let attemptsNumber = 0;
 // Declaramos una función para indicar que el contador debe sumar 1 a la cuenta cada vez que se haga click sobre el botón
 function getTotalAttempts() {
   attemptsNumber++;
   // La función debe devolver un texto con el número de clicks sobre el botón
   return `Número de intentos: ${attemptsNumber}`;
-  // OJO! El resultado lo debemos invocar desde la función getFinalNumber para pintar dentro del párrafo de intentos el mensaje establecido en el enunciado del ejercicio
-  // OJO! Se debe invocar desde la función getFinalNumber debido a que el evento activará dicha función y no ésta
+  // !!! El resultado lo debemos invocar desde la función getFinalNumber para pintar dentro del párrafo de intentos el mensaje establecido en el enunciado del ejercicio
+  // !!!! Se debe invocar desde la función getFinalNumber debido a que el evento activará dicha función y no ésta
 }
 
 // Declaramos el evento que activará las funciones
