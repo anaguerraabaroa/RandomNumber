@@ -3,31 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./stlyes/main.css" />
-    <title>Document</title>
+    <title>Módulo 2: Ejercicio de evaluación intermedia</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <main class="main" role="main">
-      <h1 class="title">Adivina el número</h1>
-      <form class="form">
-        <label class="input subtitle" for="subtitle"
-          >Introduce aquí tu número:</label
-        >
-        <input class="input userNumber" id="subtitle" type="text" name="text" />
-        <input class="input button js-button" type="button" value="Prueba" />
-        <input
-          class="input clue js-clue"
-          type="text"
-          name="message"
-          value="Pista: escribe un número y dale a prueba"
-        />
-        <input
-          class="input attempts js-attempts"
-          type="text"
-          name="message"
-          value="Número de intentos: 0"
-        />
-      </form>
+      <h1 class="main__title">Adivina el número</h1>
+      <section class="main__section">
+        <form class="main__section--form" action="" method="POST">
+          <label class="label" for="input">Introduce aquí tu número:</label>
+          <input class="input js-input" id="input" type="text" name="input" />
+          <input class="btn js-btn" type="button" value="Prueba" />
+        </form>
+        <p class="main__section--clue js-clue">
+          Pista: escribe el número y dale a prueba
+        </p>
+        <p class="main__section--attempts js-attempts">Número de intentos: 0</p>
+      </section>
     </main>
     <script type="text/javascript" src="./main.js"></script>
   </body>
