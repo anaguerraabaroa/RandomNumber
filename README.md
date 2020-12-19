@@ -33,7 +33,7 @@ RandomNumber
 │   └── main.css
 ├── index.html
 ├── main.js
-└── readme.md
+└── README.md
 ```
 
 ## **Deployment**
