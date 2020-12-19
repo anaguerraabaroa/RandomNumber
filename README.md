@@ -1,4 +1,4 @@
-# **AdalabLandingPage**
+# **RandomNumber**
 
 Half Module 2 Exercise of the Adalab Digital Frontend Development Bootcamp.
 
@@ -26,7 +26,7 @@ Project **[URL](https://anaguerraabaroa.github.io/RandomNumber/)** is also avail
 ## **Folder Structure**
 
 ```
-AdalabLandingPage
+RandomNumber
 ├── images
 │   └── app.jpg
 ├── styles
