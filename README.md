@@ -1,3 +1,5 @@
+![Random Number Banner](https://media.istockphoto.com/photos/green-binary-code-matrix-background-wide-banner-picture-id898346256?k=6&m=898346256&s=170667a&w=0&h=Ta11wMZRI1X4IJeXAamhKRj-UrvH3pEMku7oEKWActQ=)
+
 # **RandomNumber**
 
 Half Module 2 Exercise of the Adalab Digital Frontend Development Bootcamp.
