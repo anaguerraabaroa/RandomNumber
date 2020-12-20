@@ -36,6 +36,21 @@ RandomNumber
 └── README.md
 ```
 
+## **Listeners and functions**
+
+### **Get random number**
+
+- **Get initial random number:** function getRandomNumber(max)
+
+### **Get user random number**
+
+- **Event listener:** buttonElement.addEventListener("click", getFinalNumber)
+- **Handle user random number and paint clues and attempts:** function getFinalNumber()
+
+### **Get attempts to guess random number**
+
+- **Handle attempts to guess random number:** function getAttemptsNumber()
+
 ## **Deployment**
 
 ```
