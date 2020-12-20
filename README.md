@@ -4,19 +4,13 @@
 
 Half Module 2 Exercise of the Adalab Digital Frontend Development Bootcamp.
 
-This is an app to guess a random number developed with `HTML5` , `CSS3` and `JavaScript`.
+This is an app to guess a random number developed with [<img src = "https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">](https://html.spec.whatwg.org/) [<img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white">](https://www.w3.org/Style/CSS/) and [<img src = "https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black">](https://www.ecma-international.org/ecma-262/)
 
 ## **Installation**
 
 Clone repository and open project on a browser with VSCode live server plugin.
 
 Project **[URL](https://anaguerraabaroa.github.io/RandomNumber/)** is also available on GitHub Pages.
-
-## **Development technologies**
-
-- [**`HTML5`**](https://html.spec.whatwg.org/)
-- [**`CSS3`**](https://www.w3.org/Style/CSS/)
-- [**`JavaScript`**](https://www.ecma-international.org/ecma-262/)
 
 ## **Exercise development requirements**
 
