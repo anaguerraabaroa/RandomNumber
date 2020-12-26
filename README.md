@@ -58,3 +58,7 @@ git push
 ## **Result**
 
 ![Random Number App](./images/app.jpg)
+
+## **License**
+
+This project is licensed under [**MIT License**](https://spdx.org/licenses/MIT.html).
