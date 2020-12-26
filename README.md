@@ -28,6 +28,7 @@ RandomNumber
 ├── styles
 │   └── main.css
 ├── index.html
+├── LICENSE
 ├── main.js
 └── README.md
 ```
