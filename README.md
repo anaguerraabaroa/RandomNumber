@@ -48,7 +48,7 @@ RandomNumber
 
 - **Handle attempts to guess random number:** function getAttemptsNumber()
 
-## **Deployment**
+## **Updating**
 
 ```
 git add -A
