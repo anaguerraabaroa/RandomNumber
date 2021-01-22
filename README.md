@@ -12,7 +12,7 @@ Clone repository and open project on a browser with VSCode live server plugin.
 
 Project **[URL](https://anaguerraabaroa.github.io/RandomNumber/)** is also available on GitHub Pages.
 
-## **Exercise features**
+## **Project features**
 
 - Generate a random number with methods Math.random and Math.ceil when app runs
 - Input to enter a random number manually
