@@ -56,7 +56,7 @@ git commit -m "Message commit"
 git push
 ```
 
-## **Result**
+## **Project captures**
 
 ![Random Number App](./images/app.jpg)
 
